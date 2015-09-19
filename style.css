@@ -1,0 +1,130 @@
+#main{
+    width: 50%;
+    margin: auto;
+}
+#ul_nav{
+    width: 500px;
+    float: left !important;
+}
+.input_task{
+    margin: 11px 0px 0px -44px;
+    width: 100px;
+}
+.go_link{
+    position: relative !important;margin: 0px -102px 0px 101px;}
+body {
+    background: rgb(0, 94, 123);
+}
+
+.todo-wrapper {
+    background: #55B6AE;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2em;
+
+    font-family: megrim, fantasy;
+    background: #1CA89C;
+    padding: 40px;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+.emphasis {
+    font-family: -webkit-body;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li.task {
+    font-family: megrim, fantasy;
+    font-size: 2em;
+    padding: 40px;
+    background: #65d8cb;/* Old browsers */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#65d8cb), to(#72f4e9));
+    background: -webkit-linear-gradient(#65d8cb 0%, #72f4e9 100%);
+    background: -moz-linear-gradient(#65d8cb 0%, #72f4e9 100%);
+    background: -o-linear-gradient(#65d8cb 0%, #72f4e9 100%);
+    background: linear-gradient(#167BAD 0%, rgba(22, 123, 173, 0.46) 100%);
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+li input[type="checkbox"] {
+    width: 40px;
+}
+
+.done-true {
+    text-decoration: line-through;
+    color: #ddd;
+}
+
+.add-input {
+    width: 60%;
+    height: 20px;
+    float: left;
+    border: none;
+    padding: 40px 0;
+    font-size: 2em;
+    font-family: megrim, fantasy;
+    text-indent: 55px;
+}
+.add-btn {
+    width: 40%;
+    border: 1px solid #677173;
+    box-shadow: 0px -1px 30px 4px #3FA1F5;
+    background: #167BAD;
+    padding: 0;
+    height: 160px;
+    cursor: pointer;
+}
+
+h2 {
+    background: rgb(22, 123, 173);
+    padding: 0;
+    font-size: 4em;
+    font-family: megrim, fantasy;
+    color: #333;
+}
+
+.clear_btn {
+    width: 100%;
+    border: none;
+    height: 100px;
+    background: rgb(36, 136, 174);
+    font-size: 2em;
+    font-family: megrim, fantasy;
+    color: #1F1E1E;
+    cursor: pointer;
+}
+.info{
+    font-size: 2em;
+    font-family: megrim, fantasy;
+    color: #333
+}
+h1{
+    font-size: 3em;
+    font-family: megrim, fantasy;
+    color: #333
+}
+li.to_do{
+    background-color: rgba(36, 136, 174, 0.72);
+    font-size: 2em;
+    font-family: megrim, fantasy;
+    display: -webkit-box;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #28A3DE;
+    box-shadow: 0px -1px 10px 1px #28A3DE;
+}
+.checkbox{
+    cursor: pointer;
+}

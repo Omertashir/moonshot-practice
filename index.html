@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="to_do_App">
+
+<head>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="mainController">
+
+<nav class="navbar navbar-default">
+    <div class="container">
+
+        <ul class="nav navbar-nav navbar-right" id="ul_nav">
+            <li><a href="#"><i class="fa fa-home"></i> Main </a></li>
+            <input type="text" ng-model="input_task_id" placeholder="enter task id.." class="input_task">
+            <li class="go_link"><a href="#task/{{input_task_id}}">Go!</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="main">
+    <div ng-view></div>
+</div>
+<footer class="text-center">
+</footer>
+
+</body>
+
+</html>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+<script src="http://www.parsecdn.com/js/parse-1.6.2.min.js"></script>
+<script src="script.js"></script>

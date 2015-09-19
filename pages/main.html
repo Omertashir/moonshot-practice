@@ -1,0 +1,17 @@
+<!-- main.html -->
+<div class="todo-wrapper" ng-init="readFromServer()">
+    <h2>You've got <span class="emphasis">{{getTotalTodos()}}</span> things to do</h2>
+    <ul>
+        <li ng-repeat="task in tasks" class="to_do">
+            <input type="checkbox" data-ng-model="task.done" data-ng-click="validateButton()" class="checkbox"/>
+            <span class="done-{{task.done}}">{{task.title}}</span>
+        </li>
+    </ul>
+    <form>
+        <input class="add-input" placeholder="write your task title.." type="text" ng-model="formTodoText" />
+        <input class="add-input" placeholder="description.." type="text" ng-model="formTodoDesc" />
+
+        <button class="add-btn" data-ng-click="saveToServer()"><h2>Add</h2></button>
+    </form>
+    <button class="clear_btn" data-ng-click="clearCompleted()">Clear completed</button>
+</div>
