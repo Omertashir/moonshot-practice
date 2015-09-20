@@ -59,7 +59,8 @@ li.task {
 }
 
 li input[type="checkbox"] {
-    width: 40px;
+    width: 35px;
+    margin: 12px 2px 0 !important;
 }
 
 .done-true {
@@ -127,4 +128,12 @@ li.to_do{
 }
 .checkbox{
     cursor: pointer;
+}
+.task_id{
+    color: #CBD9E6;
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+    left: 7px;
+    letter-spacing: 1px;
 }
